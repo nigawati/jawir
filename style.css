@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    margin: 100px;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: rgb(224, 102, 31);
+}
+#displaycontainer{
+    border-radius: 6px;
+    height: 100px;
+    font-size: 100px;
+    font-weight: 200;
+    display: flex;
+    justify-content: flex-end;
+    justify-items: flex-end;
+ 
+}
+
+.numpaddiv{
+    display: flex;
+    flex: 1;
+    gap: 10px;
+}
+.numpadnum {
+    display: flex;
+    flex-direction: column;
+    flex: 3; 
+    gap: 10px;
+}
+.row1, .row2, .row3 ,.row4 {
+    display: flex;
+    flex: 1;
+    gap: 10px;
+}
+
+button{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #d8c30b;
+}
+.operator{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+ input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
